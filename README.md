@@ -31,6 +31,7 @@ Extract all Zip-Files into a temporary folder. After you have done this go into 
 
 At the end you should have the following directories
 
+```
 /install/oracle/database
   |_ install
   |_ response
@@ -40,24 +41,27 @@ At the end you should have the following directories
   |_ readme.html
   |_ runInstaller
   |_ welcome.html
-
+```
 
 ## installation
   Open a command line and go into the folder where you have checkout the setup files of this repository. This have to be the folder where 
   the file "Vagrantfile" is located. Then start the installation of the vagrant box with the following command.
-  
-  vagrant up
+
+```
+vagrant up
+```
   
   Please visit the offical vagrant website for further detailed information of how to use start/stop/deinstall vagrant boxes. 
   
 ## how to access the database
+```
 HOST: localhost
 SID: ORADB
 Port: 1521
 
 USER: SYSTEM
 PASSWORD: ORADB
-
+```
 
 
 

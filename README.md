@@ -2,9 +2,11 @@
 Script to install Oracle Enterprise Edition 11.2.0.4 on a basic CentOS 64 bit system ("puphpet/centos65-x64") by using packer vagrant. This script 
 use the oracle installation in silent mode. Therefore you will find predefined responsefiles.
 
+```
 database software = /install/oracle/customized_responsefiles/db_install.rsp
 database instance = /install/oracle/customized_responsefiles/dbca.rsp
 oracle listener   = /install/oracle/customized_responsefiles/netca.rsp
+```
 
 Feel free to change the default predefined properties.
 

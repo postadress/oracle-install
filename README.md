@@ -17,6 +17,7 @@ Before you can install the vagrant box (including oracle software) you have to i
 You have to download the setup files for the oracle software from the oracle website. This box is designed to 
 use the oracle setup files for enterprise edition 11.2.0.4. In total you have to download 7 files.
 
+```
 p13390677_112040_Linux-x86-64_1of7.zip
 p13390677_112040_Linux-x86-64_2of7.zip
 p13390677_112040_Linux-x86-64_3of7.zip
@@ -24,10 +25,13 @@ p13390677_112040_Linux-x86-64_4of7.zip
 p13390677_112040_Linux-x86-64_5of7.zip
 p13390677_112040_Linux-x86-64_6of7.zip
 p13390677_112040_Linux-x86-64_7of7.zip
+```
 
 Extract all Zip-Files into a temporary folder. After you have done this go into that folder and copy the contents of the database subdirectory into 
 
+```
 /install/oracle/database
+```
 
 At the end you should have the following directories
 

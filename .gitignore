@@ -1,0 +1,14 @@
+/install/oracle/database/sshsetup
+/install/oracle/database/stage
+/install/oracle/database/readme.html
+/install/oracle/database/runInstaller
+/install/oracle/database/welcome.html
+/install/oracle/database/install
+/install/oracle/database/response
+/install/oracle/database/rpm
+/.vagrant/machines/default/virtualbox/action_provision
+/.vagrant/machines/default/virtualbox/action_set_name
+/.vagrant/machines/default/virtualbox/id
+/.vagrant/machines/default/virtualbox/index_uuid
+/.vagrant/machines/default/virtualbox/private_key
+/.vagrant/machines/default/virtualbox/synced_folders

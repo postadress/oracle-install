@@ -37,7 +37,7 @@ sed -i.bak s/Defaults\ \ \ \ requiretty/\#Defaults\ \ \ \ requiretty/g /etc/sudo
 
 sudo -u oracle bash << INSTALLSW
     . /home/oracle/.bashrc
-    echo y | /vagrant/install/oracle/database/runInstaller -silent -responseFile /vagrant/install/oracle/customized_responsefiles/db_install.rsp 3>&1 | cat
+    echo y | /vagrant/install/oracle/database/runInstaller -silent -force -waitforcompletion -debug -logLevel finest DECLINE_SECURITY_UPDATES=true SECURITY_UPDATES_VIA_MYORACLESUPPORT=false -responseFile /vagrant/install/oracle/customized_responsefiles/db_install.rsp 3>&1 | cat
 INSTALLSW
 
 log "--> --> run installation of oracle listener"
